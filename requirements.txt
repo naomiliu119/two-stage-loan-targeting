@@ -1,0 +1,9 @@
+# Core versions used for the recorded analysis.
+numpy==2.4.6
+pandas==2.2.3
+scikit-learn==1.6.1
+xgboost==3.4.1
+# Plotting only; these packages do not select or fit the models.
+matplotlib>=3.9,<4
+# Only needed for the XGBoost attribution in scripts/describe_models.py.
+shap==0.54.1
