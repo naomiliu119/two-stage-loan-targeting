@@ -47,6 +47,7 @@ The two scripts below produce the extra metrics and figures in the paper:
 python -m scripts.describe_models     # coefficients, SHAP attribution, overfitting check
 python -m scripts.targeting_metrics   # AUC/KS by stage, uplift deciles, Qini
 python -m scripts.heterogeneity       # effect of the letter by customer group
+python -m scripts.stage_deciles       # decile tables and rank-order tests for each stage
 python -m scripts.plot_deciles        # decile figure
 python -m scripts.plot_diagrams       # funnel and model diagrams
 ```
