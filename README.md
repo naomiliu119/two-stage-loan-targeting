@@ -79,3 +79,7 @@ A few things to keep in mind: the original assignment probabilities weren't publ
 - Bertrand, M., Karlan, D., Mullainathan, S., Shafir, E., & Zinman, J. (2010). What's advertising content worth? Evidence from a consumer credit marketing field experiment. *Quarterly Journal of Economics*, 125(1), 263–306.
 - Dudík, M., Langford, J., & Li, L. (2011). Doubly robust policy evaluation and learning. *ICML*.
 - Künzel, S. R., Sekhon, J. S., Bickel, P. J., & Yu, B. (2019). Metalearners for estimating heterogeneous treatment effects using machine learning. *PNAS*, 116(10), 4156–4165.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
