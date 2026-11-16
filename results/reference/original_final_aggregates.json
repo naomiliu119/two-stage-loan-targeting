@@ -1,0 +1,854 @@
+{
+  "primary_result": [
+    {
+      "First rule": "Two-stage | history | Logistic S",
+      "Reference rule": "Application | history | Logistic S",
+      "Identical choices": false,
+      "Difference / 1,000": -2.387333870864039,
+      "Conditional 95% low": -6.831217810705913,
+      "Conditional 95% high": 1.9123585479129666,
+      "Partial-resampling 2.5%": -6.916204885600436,
+      "Partial-resampling 97.5%": 1.8843335499984353,
+      "Role": "PRIMARY"
+    }
+  ],
+  "probability_scores": [
+    {
+      "Approach": "Application",
+      "Feature set": "\u2014",
+      "Model": "Original training-average benchmark",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 10639,
+      "Events": 880,
+      "Non-events": 9759,
+      "Log loss": 0.285492429065939,
+      "Brier": 0.07589525406663186,
+      "Observed (%)": 8.271454084030454,
+      "Mean predicted (%)": 8.744830179220454,
+      "Predicted minus observed (pp)": 0.4733760951899993
+    },
+    {
+      "Approach": "Conditional borrowing",
+      "Feature set": "\u2014",
+      "Model": "Original training-average benchmark",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 880,
+      "Events": 778,
+      "Non-events": 102,
+      "Log loss": 0.35952050965192667,
+      "Brier": 0.10265467896217154,
+      "Observed (%)": 88.4090909090909,
+      "Mean predicted (%)": 87.06556789681117,
+      "Predicted minus observed (pp)": -1.3435230122797348
+    },
+    {
+      "Approach": "Overall borrowing",
+      "Feature set": "\u2014",
+      "Model": "Original training-average benchmark",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 10639,
+      "Events": 778,
+      "Non-events": 9861,
+      "Log loss": 0.2617190805793129,
+      "Brier": 0.06778865131242463,
+      "Observed (%)": 7.312717360654197,
+      "Mean predicted (%)": 7.613736057150019,
+      "Predicted minus observed (pp)": 0.30101869649582225
+    },
+    {
+      "Approach": "Application",
+      "Feature set": "baseline",
+      "Model": "Logistic S",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 10639,
+      "Events": 880,
+      "Non-events": 9759,
+      "Log loss": 0.27192064539722793,
+      "Brier": 0.07354874910499108,
+      "Observed (%)": 8.271454084030454,
+      "Mean predicted (%)": 8.74887013110696,
+      "Predicted minus observed (pp)": 0.47741604707650653
+    },
+    {
+      "Approach": "Application",
+      "Feature set": "baseline",
+      "Model": "XGB S",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 10639,
+      "Events": 880,
+      "Non-events": 9759,
+      "Log loss": 0.27211199132114317,
+      "Brier": 0.07357163935759786,
+      "Observed (%)": 8.271454084030454,
+      "Mean predicted (%)": 8.74364688115014,
+      "Predicted minus observed (pp)": 0.472192797119686
+    },
+    {
+      "Approach": "Application",
+      "Feature set": "baseline",
+      "Model": "XGB T",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 10639,
+      "Events": 880,
+      "Non-events": 9759,
+      "Log loss": 0.27216939709451066,
+      "Brier": 0.07358590552042055,
+      "Observed (%)": 8.271454084030454,
+      "Mean predicted (%)": 8.74235999518089,
+      "Predicted minus observed (pp)": 0.4709059111504349
+    },
+    {
+      "Approach": "Application",
+      "Feature set": "history",
+      "Model": "Logistic S",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 10639,
+      "Events": 880,
+      "Non-events": 9759,
+      "Log loss": 0.2720093927676233,
+      "Brier": 0.07357068927734627,
+      "Observed (%)": 8.271454084030454,
+      "Mean predicted (%)": 8.737989649301275,
+      "Predicted minus observed (pp)": 0.4665355652708217
+    },
+    {
+      "Approach": "Application",
+      "Feature set": "history",
+      "Model": "XGB S",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 10639,
+      "Events": 880,
+      "Non-events": 9759,
+      "Log loss": 0.2721591638595701,
+      "Brier": 0.07360145510364911,
+      "Observed (%)": 8.271454084030454,
+      "Mean predicted (%)": 8.72789639007923,
+      "Predicted minus observed (pp)": 0.45644230604877656
+    },
+    {
+      "Approach": "Application",
+      "Feature set": "history",
+      "Model": "XGB T",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 10639,
+      "Events": 880,
+      "Non-events": 9759,
+      "Log loss": 0.27193278606726445,
+      "Brier": 0.07355516816644209,
+      "Observed (%)": 8.271454084030454,
+      "Mean predicted (%)": 8.734103181543055,
+      "Predicted minus observed (pp)": 0.46264909751260186
+    },
+    {
+      "Approach": "Conditional borrowing",
+      "Feature set": "baseline",
+      "Model": "Logistic S",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 880,
+      "Events": 778,
+      "Non-events": 102,
+      "Log loss": 0.3389199691116622,
+      "Brier": 0.09918266620821269,
+      "Observed (%)": 88.4090909090909,
+      "Mean predicted (%)": 87.01193269212261,
+      "Predicted minus observed (pp)": -1.3971582169682972
+    },
+    {
+      "Approach": "Conditional borrowing",
+      "Feature set": "baseline",
+      "Model": "XGB S",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 880,
+      "Events": 778,
+      "Non-events": 102,
+      "Log loss": 0.3430540712970525,
+      "Brier": 0.10029902751891194,
+      "Observed (%)": 88.4090909090909,
+      "Mean predicted (%)": 86.93388384851542,
+      "Predicted minus observed (pp)": -1.4752070605754786
+    },
+    {
+      "Approach": "Conditional borrowing",
+      "Feature set": "history",
+      "Model": "Logistic S",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 880,
+      "Events": 778,
+      "Non-events": 102,
+      "Log loss": 0.33885905495927215,
+      "Brier": 0.09920638845148995,
+      "Observed (%)": 88.4090909090909,
+      "Mean predicted (%)": 86.96670729789759,
+      "Predicted minus observed (pp)": -1.4423836111933208
+    },
+    {
+      "Approach": "Conditional borrowing",
+      "Feature set": "history",
+      "Model": "XGB S",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 880,
+      "Events": 778,
+      "Non-events": 102,
+      "Log loss": 0.34288184252618187,
+      "Brier": 0.10016552057629091,
+      "Observed (%)": 88.4090909090909,
+      "Mean predicted (%)": 86.92125475542112,
+      "Predicted minus observed (pp)": -1.487836153669786
+    },
+    {
+      "Approach": "Two-stage borrowing",
+      "Feature set": "baseline",
+      "Model": "Logistic S",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 10639,
+      "Events": 778,
+      "Non-events": 9861,
+      "Log loss": 0.24732840565919853,
+      "Brier": 0.06552370429192063,
+      "Observed (%)": 7.312717360654197,
+      "Mean predicted (%)": 7.616273805677396,
+      "Predicted minus observed (pp)": 0.3035564450231995
+    },
+    {
+      "Approach": "Two-stage borrowing",
+      "Feature set": "baseline",
+      "Model": "XGB S",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 10639,
+      "Events": 778,
+      "Non-events": 9861,
+      "Log loss": 0.24757969397287904,
+      "Brier": 0.06555047328139905,
+      "Observed (%)": 7.312717360654197,
+      "Mean predicted (%)": 7.607204423978957,
+      "Predicted minus observed (pp)": 0.29448706332475955
+    },
+    {
+      "Approach": "Two-stage borrowing",
+      "Feature set": "baseline",
+      "Model": "XGB T",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 10639,
+      "Events": 778,
+      "Non-events": 9861,
+      "Log loss": 0.24766831464201758,
+      "Brier": 0.06556165163201572,
+      "Observed (%)": 7.312717360654197,
+      "Mean predicted (%)": 7.606715794933602,
+      "Predicted minus observed (pp)": 0.293998434279405
+    },
+    {
+      "Approach": "Two-stage borrowing",
+      "Feature set": "history",
+      "Model": "Logistic S",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 10639,
+      "Events": 778,
+      "Non-events": 9861,
+      "Log loss": 0.2474168677767019,
+      "Brier": 0.06554791677775554,
+      "Observed (%)": 7.312717360654197,
+      "Mean predicted (%)": 7.60501382304936,
+      "Predicted minus observed (pp)": 0.29229646239516266
+    },
+    {
+      "Approach": "Two-stage borrowing",
+      "Feature set": "history",
+      "Model": "XGB S",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 10639,
+      "Events": 778,
+      "Non-events": 9861,
+      "Log loss": 0.24762831817556707,
+      "Brier": 0.06558037153575473,
+      "Observed (%)": 7.312717360654197,
+      "Mean predicted (%)": 7.596154968639598,
+      "Predicted minus observed (pp)": 0.2834376079854012
+    },
+    {
+      "Approach": "Two-stage borrowing",
+      "Feature set": "history",
+      "Model": "XGB T",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 10639,
+      "Events": 778,
+      "Non-events": 9861,
+      "Log loss": 0.247442777406593,
+      "Brier": 0.06554300040040306,
+      "Observed (%)": 7.312717360654197,
+      "Mean predicted (%)": 7.594727562596407,
+      "Predicted minus observed (pp)": 0.2820102019422094
+    },
+    {
+      "Approach": "Direct borrowing",
+      "Feature set": "baseline",
+      "Model": "Logistic S",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 10639,
+      "Events": 778,
+      "Non-events": 9861,
+      "Log loss": 0.24736960191476853,
+      "Brier": 0.0655412950754562,
+      "Observed (%)": 7.312717360654197,
+      "Mean predicted (%)": 7.621034699906646,
+      "Predicted minus observed (pp)": 0.30831733925244936
+    },
+    {
+      "Approach": "Direct borrowing",
+      "Feature set": "baseline",
+      "Model": "XGB S",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 10639,
+      "Events": 778,
+      "Non-events": 9861,
+      "Log loss": 0.2474426239658913,
+      "Brier": 0.0655535818731483,
+      "Observed (%)": 7.312717360654197,
+      "Mean predicted (%)": 7.616410631133555,
+      "Predicted minus observed (pp)": 0.3036932704793577
+    },
+    {
+      "Approach": "Direct borrowing",
+      "Feature set": "history",
+      "Model": "Logistic S",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 10639,
+      "Events": 778,
+      "Non-events": 9861,
+      "Log loss": 0.24747593732491,
+      "Brier": 0.06556572091983742,
+      "Observed (%)": 7.312717360654197,
+      "Mean predicted (%)": 7.611314765234058,
+      "Predicted minus observed (pp)": 0.29859740457986034
+    },
+    {
+      "Approach": "Direct borrowing",
+      "Feature set": "history",
+      "Model": "XGB S",
+      "Group type": "All",
+      "Group": "All",
+      "Records": 10639,
+      "Events": 778,
+      "Non-events": 9861,
+      "Log loss": 0.24717874963588385,
+      "Brier": 0.06552227771599278,
+      "Observed (%)": 7.312717360654197,
+      "Mean predicted (%)": 7.605114204063066,
+      "Predicted minus observed (pp)": 0.29239684340886946
+    }
+  ],
+  "policy_values": [
+    {
+      "Rule": "R01",
+      "Representative label": "Always four examples",
+      "Equivalent labels": 1,
+      "Chooses one (%)": 0,
+      "DR loans / 1,000": 68.37176860801479,
+      "Gain vs all-four / 1,000": 0,
+      "Conditional 95% low vs four": 0,
+      "Conditional 95% high vs four": 0,
+      "Gain vs all-one / 1,000": -14.780271164545375,
+      "Conditional 95% low vs one": -27.620245873139435,
+      "Conditional 95% high vs one": -2.6913836302418637
+    },
+    {
+      "Rule": "R02",
+      "Representative label": "Always one example",
+      "Equivalent labels": 3,
+      "Chooses one (%)": 100,
+      "DR loans / 1,000": 83.15203977256017,
+      "Gain vs all-four / 1,000": 14.780271164545375,
+      "Conditional 95% low vs four": 2.6913836302418614,
+      "Conditional 95% high vs four": 27.620245873139435,
+      "Gain vs all-one / 1,000": 0,
+      "Conditional 95% low vs one": 0,
+      "Conditional 95% high vs one": 0
+    },
+    {
+      "Rule": "R03",
+      "Representative label": "Application | baseline | Logistic S",
+      "Equivalent labels": 1,
+      "Chooses one (%)": 75.72140238744242,
+      "DR loans / 1,000": 79.9517327525342,
+      "Gain vs all-four / 1,000": 11.579964144519408,
+      "Conditional 95% low vs four": 2.3430870285267553,
+      "Conditional 95% high vs four": 21.034397753769433,
+      "Gain vs all-one / 1,000": -3.2003070200259662,
+      "Conditional 95% low vs one": -11.173797460548364,
+      "Conditional 95% high vs one": 4.606096559765877
+    },
+    {
+      "Rule": "R04",
+      "Representative label": "Application | baseline | XGB T",
+      "Equivalent labels": 2,
+      "Chooses one (%)": 73.14597236582385,
+      "DR loans / 1,000": 78.39260480440335,
+      "Gain vs all-four / 1,000": 10.020836196388563,
+      "Conditional 95% low vs four": 1.7263925337471364,
+      "Conditional 95% high vs four": 18.49537659207712,
+      "Gain vs all-one / 1,000": -4.759434968156811,
+      "Conditional 95% low vs one": -13.886919579586577,
+      "Conditional 95% high vs one": 3.7053521317165226
+    },
+    {
+      "Rule": "R05",
+      "Representative label": "Application | history | Logistic S",
+      "Equivalent labels": 1,
+      "Chooses one (%)": 77.08431243537926,
+      "DR loans / 1,000": 80.93064595658807,
+      "Gain vs all-four / 1,000": 12.558877348573278,
+      "Conditional 95% low vs four": 3.4141004704673588,
+      "Conditional 95% high vs four": 22.070530567175567,
+      "Gain vs all-one / 1,000": -2.2213938159720974,
+      "Conditional 95% low vs one": -10.204618356306382,
+      "Conditional 95% high vs one": 5.313793666226226
+    },
+    {
+      "Rule": "R06",
+      "Representative label": "Application | history | XGB S",
+      "Equivalent labels": 2,
+      "Chooses one (%)": 88.3635680045117,
+      "DR loans / 1,000": 77.79671290432955,
+      "Gain vs all-four / 1,000": 9.424944296314756,
+      "Conditional 95% low vs four": 0.12327522315719806,
+      "Conditional 95% high vs four": 19.412688317692005,
+      "Gain vs all-one / 1,000": -5.35532686823062,
+      "Conditional 95% low vs one": -12.96115015538858,
+      "Conditional 95% high vs one": 2.03276798188832
+    },
+    {
+      "Rule": "R07",
+      "Representative label": "Application | history | XGB T",
+      "Equivalent labels": 2,
+      "Chooses one (%)": 71.6044741047091,
+      "DR loans / 1,000": 78.04825125496679,
+      "Gain vs all-four / 1,000": 9.676482646951992,
+      "Conditional 95% low vs four": 1.5964905674207872,
+      "Conditional 95% high vs four": 18.55745119347062,
+      "Gain vs all-one / 1,000": -5.103788517593383,
+      "Conditional 95% low vs one": -14.67969836049222,
+      "Conditional 95% high vs one": 3.727491619251028
+    },
+    {
+      "Rule": "R08",
+      "Representative label": "Two-stage | baseline | Logistic S",
+      "Equivalent labels": 1,
+      "Chooses one (%)": 79.43415734561519,
+      "DR loans / 1,000": 82.02546473595555,
+      "Gain vs all-four / 1,000": 13.653696127940762,
+      "Conditional 95% low vs four": 4.380540579579484,
+      "Conditional 95% high vs four": 23.44754152159803,
+      "Gain vs all-one / 1,000": -1.126575036604613,
+      "Conditional 95% low vs one": -9.096963054749166,
+      "Conditional 95% high vs one": 6.504277293402376
+    },
+    {
+      "Rule": "R09",
+      "Representative label": "Two-stage | history | Logistic S",
+      "Equivalent labels": 1,
+      "Chooses one (%)": 78.77620077074913,
+      "DR loans / 1,000": 78.54331208572403,
+      "Gain vs all-four / 1,000": 10.171543477709239,
+      "Conditional 95% low vs four": 0.9921793607179427,
+      "Conditional 95% high vs four": 19.48112977996709,
+      "Gain vs all-one / 1,000": -4.608727686836136,
+      "Conditional 95% low vs one": -12.586047363491852,
+      "Conditional 95% high vs one": 2.8698685913926796
+    },
+    {
+      "Rule": "R10",
+      "Representative label": "Direct | baseline | Logistic S",
+      "Equivalent labels": 1,
+      "Chooses one (%)": 79.67854121627973,
+      "DR loans / 1,000": 80.89730752590467,
+      "Gain vs all-four / 1,000": 12.525538917889879,
+      "Conditional 95% low vs four": 3.099367590960501,
+      "Conditional 95% high vs four": 22.07413010116292,
+      "Gain vs all-one / 1,000": -2.254732246655497,
+      "Conditional 95% low vs one": -10.315633421714981,
+      "Conditional 95% high vs one": 5.2171148067386035
+    },
+    {
+      "Rule": "R11",
+      "Representative label": "Direct | baseline | XGB S",
+      "Equivalent labels": 1,
+      "Chooses one (%)": 85.976125575712,
+      "DR loans / 1,000": 76.21751028887569,
+      "Gain vs all-four / 1,000": 7.845741680860899,
+      "Conditional 95% low vs four": -1.173487471698714,
+      "Conditional 95% high vs four": 17.09993079558351,
+      "Gain vs all-one / 1,000": -6.934529483684476,
+      "Conditional 95% low vs one": -15.23608792837686,
+      "Conditional 95% high vs one": 1.3486682497996871
+    },
+    {
+      "Rule": "R12",
+      "Representative label": "Direct | history | Logistic S",
+      "Equivalent labels": 1,
+      "Chooses one (%)": 78.24043613121535,
+      "DR loans / 1,000": 76.21829083061016,
+      "Gain vs all-four / 1,000": 7.846522222595367,
+      "Conditional 95% low vs four": -1.2558119752664485,
+      "Conditional 95% high vs four": 17.16988558364258,
+      "Gain vs all-one / 1,000": -6.933748941950007,
+      "Conditional 95% low vs one": -14.781462064307187,
+      "Conditional 95% high vs one": 0.9792059019529876
+    },
+    {
+      "Rule": "R13",
+      "Representative label": "Direct | history | XGB S",
+      "Equivalent labels": 1,
+      "Chooses one (%)": 76.52974903656359,
+      "DR loans / 1,000": 78.408854025309,
+      "Gain vs all-four / 1,000": 10.0370854172942,
+      "Conditional 95% low vs four": 0.8000089635145494,
+      "Conditional 95% high vs four": 19.533156843428436,
+      "Gain vs all-one / 1,000": -4.743185747251174,
+      "Conditional 95% low vs one": -12.923545866569178,
+      "Conditional 95% high vs one": 3.2952177714957798
+    }
+  ],
+  "matched_comparisons": [
+    {
+      "First rule": "Always one example",
+      "Reference rule": "Always four examples",
+      "Identical choices": false,
+      "Difference / 1,000": 14.780271164545375,
+      "Conditional 95% low": 2.6913836302418614,
+      "Conditional 95% high": 27.620245873139435,
+      "Partial-resampling 2.5%": 2.640581611382414,
+      "Partial-resampling 97.5%": 27.807048181940033,
+      "Role": "Secondary"
+    },
+    {
+      "First rule": "Two-stage | baseline | Logistic S",
+      "Reference rule": "Application | baseline | Logistic S",
+      "Identical choices": false,
+      "Difference / 1,000": 2.0737319834213537,
+      "Conditional 95% low": -1.7584730952985814,
+      "Conditional 95% high": 5.870046085310618,
+      "Partial-resampling 2.5%": -1.7730062795173578,
+      "Partial-resampling 97.5%": 5.935811513251092,
+      "Role": "Secondary"
+    },
+    {
+      "First rule": "Two-stage | baseline | XGB S",
+      "Reference rule": "Application | baseline | XGB S",
+      "Identical choices": true,
+      "Difference / 1,000": 0,
+      "Conditional 95% low": 0,
+      "Conditional 95% high": 0,
+      "Partial-resampling 2.5%": 0,
+      "Partial-resampling 97.5%": 0,
+      "Role": "Secondary"
+    },
+    {
+      "First rule": "Two-stage | baseline | XGB T",
+      "Reference rule": "Application | baseline | XGB T",
+      "Identical choices": true,
+      "Difference / 1,000": 0,
+      "Conditional 95% low": 0,
+      "Conditional 95% high": 0,
+      "Partial-resampling 2.5%": 0,
+      "Partial-resampling 97.5%": 0,
+      "Role": "Secondary"
+    },
+    {
+      "First rule": "Direct | baseline | Logistic S",
+      "Reference rule": "Two-stage | baseline | Logistic S",
+      "Identical choices": false,
+      "Difference / 1,000": -1.128157210050884,
+      "Conditional 95% low": -2.190128291540713,
+      "Conditional 95% high": -0.20005087191514073,
+      "Partial-resampling 2.5%": -2.187907966585414,
+      "Partial-resampling 97.5%": -0.20294352018346884,
+      "Role": "Secondary"
+    },
+    {
+      "First rule": "Direct | baseline | XGB S",
+      "Reference rule": "Two-stage | baseline | XGB S",
+      "Identical choices": false,
+      "Difference / 1,000": -6.934529483684476,
+      "Conditional 95% low": -15.23608792837686,
+      "Conditional 95% high": 1.3486682497996871,
+      "Partial-resampling 2.5%": -15.345721559965607,
+      "Partial-resampling 97.5%": 1.3732033133881363,
+      "Role": "Secondary"
+    },
+    {
+      "First rule": "Two-stage | history | Logistic S",
+      "Reference rule": "Application | history | Logistic S",
+      "Identical choices": false,
+      "Difference / 1,000": -2.387333870864039,
+      "Conditional 95% low": -6.831217810705913,
+      "Conditional 95% high": 1.9123585479129666,
+      "Partial-resampling 2.5%": -6.916204885600436,
+      "Partial-resampling 97.5%": 1.8843335499984353,
+      "Role": "PRIMARY"
+    },
+    {
+      "First rule": "Two-stage | history | XGB S",
+      "Reference rule": "Application | history | XGB S",
+      "Identical choices": true,
+      "Difference / 1,000": 0,
+      "Conditional 95% low": 0,
+      "Conditional 95% high": 0,
+      "Partial-resampling 2.5%": 0,
+      "Partial-resampling 97.5%": 0,
+      "Role": "Secondary"
+    },
+    {
+      "First rule": "Two-stage | history | XGB T",
+      "Reference rule": "Application | history | XGB T",
+      "Identical choices": true,
+      "Difference / 1,000": 0,
+      "Conditional 95% low": 0,
+      "Conditional 95% high": 0,
+      "Partial-resampling 2.5%": 0,
+      "Partial-resampling 97.5%": 0,
+      "Role": "Secondary"
+    },
+    {
+      "First rule": "Direct | history | Logistic S",
+      "Reference rule": "Two-stage | history | Logistic S",
+      "Identical choices": false,
+      "Difference / 1,000": -2.325021255113871,
+      "Conditional 95% low": -4.142049716800437,
+      "Conditional 95% high": -0.4285214220956927,
+      "Partial-resampling 2.5%": -4.149170164264809,
+      "Partial-resampling 97.5%": -0.4362472065459527,
+      "Role": "Secondary"
+    },
+    {
+      "First rule": "Direct | history | XGB S",
+      "Reference rule": "Two-stage | history | XGB S",
+      "Identical choices": false,
+      "Difference / 1,000": 0.6121411209794453,
+      "Conditional 95% low": -2.322306742531777,
+      "Conditional 95% high": 3.3255718808410815,
+      "Partial-resampling 2.5%": -2.346237453334088,
+      "Partial-resampling 97.5%": 3.3209454143190476,
+      "Role": "Secondary"
+    }
+  ],
+  "estimator_sensitivities": [
+    {
+      "Rule": "R01",
+      "Representative label": "Always four examples",
+      "Primary DR gain vs four / 1,000": 0,
+      "IPW risk/wave gain vs four / 1,000": 0,
+      "DR risk-only gain vs four / 1,000": 0,
+      "DR logistic nuisance gain vs four / 1,000": 0
+    },
+    {
+      "Rule": "R02",
+      "Representative label": "Always one example",
+      "Primary DR gain vs four / 1,000": 14.780271164545375,
+      "IPW risk/wave gain vs four / 1,000": 14.897050520907214,
+      "DR risk-only gain vs four / 1,000": 14.59072263158788,
+      "DR logistic nuisance gain vs four / 1,000": 15.133668008134052
+    },
+    {
+      "Rule": "R03",
+      "Representative label": "Application | baseline | Logistic S",
+      "Primary DR gain vs four / 1,000": 11.579964144519408,
+      "IPW risk/wave gain vs four / 1,000": 12.088908187286751,
+      "DR risk-only gain vs four / 1,000": 11.553759142558532,
+      "DR logistic nuisance gain vs four / 1,000": 11.95757149517586
+    },
+    {
+      "Rule": "R04",
+      "Representative label": "Application | baseline | XGB T",
+      "Primary DR gain vs four / 1,000": 10.020836196388563,
+      "IPW risk/wave gain vs four / 1,000": 10.678311094023993,
+      "DR risk-only gain vs four / 1,000": 9.978160590808693,
+      "DR logistic nuisance gain vs four / 1,000": 10.403112479294846
+    },
+    {
+      "Rule": "R05",
+      "Representative label": "Application | history | Logistic S",
+      "Primary DR gain vs four / 1,000": 12.558877348573278,
+      "IPW risk/wave gain vs four / 1,000": 13.293439371247981,
+      "DR risk-only gain vs four / 1,000": 12.507620629563856,
+      "DR logistic nuisance gain vs four / 1,000": 12.937220999061818
+    },
+    {
+      "Rule": "R06",
+      "Representative label": "Application | history | XGB S",
+      "Primary DR gain vs four / 1,000": 9.424944296314756,
+      "IPW risk/wave gain vs four / 1,000": 8.863697042917645,
+      "DR risk-only gain vs four / 1,000": 9.289334539327108,
+      "DR logistic nuisance gain vs four / 1,000": 9.769764467143712
+    },
+    {
+      "Rule": "R07",
+      "Representative label": "Application | history | XGB T",
+      "Primary DR gain vs four / 1,000": 9.676482646951992,
+      "IPW risk/wave gain vs four / 1,000": 9.048149400436536,
+      "DR risk-only gain vs four / 1,000": 9.624345780726712,
+      "DR logistic nuisance gain vs four / 1,000": 10.095061908547628
+    },
+    {
+      "Rule": "R08",
+      "Representative label": "Two-stage | baseline | Logistic S",
+      "Primary DR gain vs four / 1,000": 13.653696127940762,
+      "IPW risk/wave gain vs four / 1,000": 14.050803665780764,
+      "DR risk-only gain vs four / 1,000": 13.606651229196743,
+      "DR logistic nuisance gain vs four / 1,000": 14.009807523047785
+    },
+    {
+      "Rule": "R09",
+      "Representative label": "Two-stage | history | Logistic S",
+      "Primary DR gain vs four / 1,000": 10.171543477709239,
+      "IPW risk/wave gain vs four / 1,000": 10.719885729124384,
+      "DR risk-only gain vs four / 1,000": 10.149164659975312,
+      "DR logistic nuisance gain vs four / 1,000": 10.477355195530544
+    },
+    {
+      "Rule": "R10",
+      "Representative label": "Direct | baseline | Logistic S",
+      "Primary DR gain vs four / 1,000": 12.525538917889879,
+      "IPW risk/wave gain vs four / 1,000": 12.988344254563424,
+      "DR risk-only gain vs four / 1,000": 12.498616211696776,
+      "DR logistic nuisance gain vs four / 1,000": 12.875156349327385
+    },
+    {
+      "Rule": "R11",
+      "Representative label": "Direct | baseline | XGB S",
+      "Primary DR gain vs four / 1,000": 7.845741680860899,
+      "IPW risk/wave gain vs four / 1,000": 7.589731342313582,
+      "DR risk-only gain vs four / 1,000": 7.7228636030894915,
+      "DR logistic nuisance gain vs four / 1,000": 8.144600723163656
+    },
+    {
+      "Rule": "R12",
+      "Representative label": "Direct | history | Logistic S",
+      "Primary DR gain vs four / 1,000": 7.846522222595367,
+      "IPW risk/wave gain vs four / 1,000": 8.558812669409555,
+      "DR risk-only gain vs four / 1,000": 7.837353620440246,
+      "DR logistic nuisance gain vs four / 1,000": 8.157317938835702
+    },
+    {
+      "Rule": "R13",
+      "Representative label": "Direct | history | XGB S",
+      "Primary DR gain vs four / 1,000": 10.0370854172942,
+      "IPW risk/wave gain vs four / 1,000": 9.453295976229349,
+      "DR risk-only gain vs four / 1,000": 9.91005938576614,
+      "DR logistic nuisance gain vs four / 1,000": 10.311719828102847
+    }
+  ],
+  "rule_aliases": [
+    {
+      "Rule label": "Always four examples",
+      "Unique rule": "R01",
+      "Unique position": 0
+    },
+    {
+      "Rule label": "Always one example",
+      "Unique rule": "R02",
+      "Unique position": 1
+    },
+    {
+      "Rule label": "Application | baseline | Logistic S",
+      "Unique rule": "R03",
+      "Unique position": 2
+    },
+    {
+      "Rule label": "Application | baseline | XGB S",
+      "Unique rule": "R02",
+      "Unique position": 1
+    },
+    {
+      "Rule label": "Application | baseline | XGB T",
+      "Unique rule": "R04",
+      "Unique position": 3
+    },
+    {
+      "Rule label": "Application | history | Logistic S",
+      "Unique rule": "R05",
+      "Unique position": 4
+    },
+    {
+      "Rule label": "Application | history | XGB S",
+      "Unique rule": "R06",
+      "Unique position": 5
+    },
+    {
+      "Rule label": "Application | history | XGB T",
+      "Unique rule": "R07",
+      "Unique position": 6
+    },
+    {
+      "Rule label": "Two-stage | baseline | Logistic S",
+      "Unique rule": "R08",
+      "Unique position": 7
+    },
+    {
+      "Rule label": "Two-stage | baseline | XGB S",
+      "Unique rule": "R02",
+      "Unique position": 1
+    },
+    {
+      "Rule label": "Two-stage | baseline | XGB T",
+      "Unique rule": "R04",
+      "Unique position": 3
+    },
+    {
+      "Rule label": "Two-stage | history | Logistic S",
+      "Unique rule": "R09",
+      "Unique position": 8
+    },
+    {
+      "Rule label": "Two-stage | history | XGB S",
+      "Unique rule": "R06",
+      "Unique position": 5
+    },
+    {
+      "Rule label": "Two-stage | history | XGB T",
+      "Unique rule": "R07",
+      "Unique position": 6
+    },
+    {
+      "Rule label": "Direct | baseline | Logistic S",
+      "Unique rule": "R10",
+      "Unique position": 9
+    },
+    {
+      "Rule label": "Direct | baseline | XGB S",
+      "Unique rule": "R11",
+      "Unique position": 10
+    },
+    {
+      "Rule label": "Direct | history | Logistic S",
+      "Unique rule": "R12",
+      "Unique position": 11
+    },
+    {
+      "Rule label": "Direct | history | XGB S",
+      "Unique rule": "R13",
+      "Unique position": 12
+    }
+  ]
+}

@@ -1,0 +1,1955 @@
+{
+  "source": "Existing training-only CV tables, read after final assessment for descriptive figures; no new model selection",
+  "stages": {
+    "Application": [
+      {
+        "Candidate": 0,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.283669317284339,
+        "CV Brier": 0.077432408071443,
+        "Fold log loss SD": 0.001482339124133,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 50,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.284197542991439,
+          0.284815569797075,
+          0.281995476947596
+        ]
+      },
+      {
+        "Candidate": 1,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.283669841044682,
+        "CV Brier": 0.077432267174505,
+        "Fold log loss SD": 0.001482567665451,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 50,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.284200633125036,
+          0.284814327844654,
+          0.281995199700128
+        ]
+      },
+      {
+        "Candidate": 2,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.283669317284339,
+        "CV Brier": 0.077432408071443,
+        "Fold log loss SD": 0.001482339124133,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.284197542991439,
+          0.284815569797075,
+          0.281995476947596
+        ]
+      },
+      {
+        "Candidate": 3,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.283672665969909,
+        "CV Brier": 0.077432863387147,
+        "Fold log loss SD": 0.001484091379832,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 20,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.284209107635192,
+          0.284814327844654,
+          0.281995199700128
+        ]
+      },
+      {
+        "Candidate": 4,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.283783277981968,
+        "CV Brier": 0.077447910307085,
+        "Fold log loss SD": 0.001505360203009,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 50,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.284216910935748,
+          0.285024609138831,
+          0.282108978651109
+        ]
+      },
+      {
+        "Candidate": 5,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.283795004020256,
+        "CV Brier": 0.077452597066037,
+        "Fold log loss SD": 0.001500066424148,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 50,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.28422303961954,
+          0.285034909952003,
+          0.282127725547288
+        ]
+      },
+      {
+        "Candidate": 6,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.28382352739295,
+        "CV Brier": 0.077454158000511,
+        "Fold log loss SD": 0.001477650516946,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.284289881682198,
+          0.285012111655579,
+          0.282169234986161
+        ]
+      },
+      {
+        "Candidate": 7,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.283850729880049,
+        "CV Brier": 0.077459429177078,
+        "Fold log loss SD": 0.001481649338834,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 20,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.284322495700856,
+          0.285039430088556,
+          0.282190911067414
+        ]
+      },
+      {
+        "Candidate": 8,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.283982549695186,
+        "CV Brier": 0.077474119013215,
+        "Fold log loss SD": 0.001464457174094,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 50,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.284506754599635,
+          0.285113136629902,
+          0.282328387622439
+        ]
+      },
+      {
+        "Candidate": 9,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.28399651443325,
+        "CV Brier": 0.077480854757746,
+        "Fold log loss SD": 0.001477068583914,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 50,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.284542808162679,
+          0.285122996453498,
+          0.282324370672818
+        ]
+      },
+      {
+        "Candidate": 10,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.28412951294554,
+        "CV Brier": 0.077512669971537,
+        "Fold log loss SD": 0.001512238042315,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.284709978194624,
+          0.285265906722302,
+          0.282413296988896
+        ]
+      },
+      {
+        "Candidate": 11,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.284240177573962,
+        "CV Brier": 0.077532828930265,
+        "Fold log loss SD": 0.001478958477077,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 20,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.284758150800871,
+          0.285390857766999,
+          0.282572162190612
+        ]
+      },
+      {
+        "Candidate": 12,
+        "Feature set": "baseline",
+        "Method": "XGB T",
+        "CV log loss": 0.283675470049923,
+        "CV Brier": 0.077436045271492,
+        "Fold log loss SD": 0.00157189063771,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 50,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.284276492868095,
+          0.284858573171134,
+          0.2818920129914
+        ]
+      },
+      {
+        "Candidate": 13,
+        "Feature set": "baseline",
+        "Method": "XGB T",
+        "CV log loss": 0.283682251430424,
+        "CV Brier": 0.077437383405124,
+        "Fold log loss SD": 0.001571011879415,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 50,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.284287017555095,
+          0.284861409055278,
+          0.28189899541141
+        ]
+      },
+      {
+        "Candidate": 14,
+        "Feature set": "baseline",
+        "Method": "XGB T",
+        "CV log loss": 0.28373342912151,
+        "CV Brier": 0.077449406757552,
+        "Fold log loss SD": 0.001487212466879,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.284321125454385,
+          0.284837373823673,
+          0.282042417267581
+        ]
+      },
+      {
+        "Candidate": 15,
+        "Feature set": "baseline",
+        "Method": "XGB T",
+        "CV log loss": 0.28373944813555,
+        "CV Brier": 0.077450724930707,
+        "Fold log loss SD": 0.001482802516319,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 20,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.28434483468378,
+          0.284824157917172,
+          0.282049975273605
+        ]
+      },
+      {
+        "Candidate": 16,
+        "Feature set": "baseline",
+        "Method": "XGB T",
+        "CV log loss": 0.283813046703255,
+        "CV Brier": 0.077449613501809,
+        "Fold log loss SD": 0.00157207570572,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 50,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.28421677891958,
+          0.285144278436574,
+          0.282078784156025
+        ]
+      },
+      {
+        "Candidate": 17,
+        "Feature set": "baseline",
+        "Method": "XGB T",
+        "CV log loss": 0.283809867936324,
+        "CV Brier": 0.077449223451183,
+        "Fold log loss SD": 0.001620879503958,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 50,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.284178141957338,
+          0.28521532993863,
+          0.282036861530338
+        ]
+      },
+      {
+        "Candidate": 18,
+        "Feature set": "baseline",
+        "Method": "XGB T",
+        "CV log loss": 0.283975601036466,
+        "CV Brier": 0.077489684028629,
+        "Fold log loss SD": 0.00152154595567,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.284425528869368,
+          0.285221831303434,
+          0.282280113081038
+        ]
+      },
+      {
+        "Candidate": 19,
+        "Feature set": "baseline",
+        "Method": "XGB T",
+        "CV log loss": 0.283993965337302,
+        "CV Brier": 0.077498092006561,
+        "Fold log loss SD": 0.001512577150092,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 20,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.284453883558345,
+          0.285223584292318,
+          0.282305092378066
+        ]
+      },
+      {
+        "Candidate": 20,
+        "Feature set": "baseline",
+        "Method": "XGB T",
+        "CV log loss": 0.284115596683865,
+        "CV Brier": 0.077503890839507,
+        "Fold log loss SD": 0.001566399604921,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 50,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.284545513740223,
+          0.285422542562183,
+          0.282379428661651
+        ]
+      },
+      {
+        "Candidate": 21,
+        "Feature set": "baseline",
+        "Method": "XGB T",
+        "CV log loss": 0.284114926933741,
+        "CV Brier": 0.077504933799382,
+        "Fold log loss SD": 0.001581209704421,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 50,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.284555606655418,
+          0.285429450101037,
+          0.28236042454052
+        ]
+      },
+      {
+        "Candidate": 22,
+        "Feature set": "baseline",
+        "Method": "XGB T",
+        "CV log loss": 0.284191606038189,
+        "CV Brier": 0.07754041384336,
+        "Fold log loss SD": 0.00147468846394,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.284767043334913,
+          0.285292198557425,
+          0.282516201524099
+        ]
+      },
+      {
+        "Candidate": 23,
+        "Feature set": "baseline",
+        "Method": "XGB T",
+        "CV log loss": 0.284274639333191,
+        "CV Brier": 0.077560417146509,
+        "Fold log loss SD": 0.001440986995525,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 20,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.284791295529147,
+          0.285386439709641,
+          0.282646802280969
+        ]
+      },
+      {
+        "Candidate": 24,
+        "Feature set": "baseline",
+        "Method": "Logistic S",
+        "CV log loss": 0.284799781541467,
+        "CV Brier": 0.077655303237208,
+        "Fold log loss SD": 0.000881615197479,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 0.01
+        },
+        "Fold log losses": [
+          0.285072875587752,
+          0.285512758502354,
+          0.283814096877016
+        ]
+      },
+      {
+        "Candidate": 25,
+        "Feature set": "baseline",
+        "Method": "Logistic S",
+        "CV log loss": 0.283555445700975,
+        "CV Brier": 0.077409759343547,
+        "Fold log loss SD": 0.001570778746554,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 0.1
+        },
+        "Fold log losses": [
+          0.284099247049833,
+          0.284782463886813,
+          0.281785304927074
+        ]
+      },
+      {
+        "Candidate": 26,
+        "Feature set": "baseline",
+        "Method": "Logistic S",
+        "CV log loss": 0.28351447093113,
+        "CV Brier": 0.077401111738252,
+        "Fold log loss SD": 0.001710262070295,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 1
+        },
+        "Fold log losses": [
+          0.284052431978826,
+          0.284891509031483,
+          0.281600219937635
+        ]
+      },
+      {
+        "Candidate": 27,
+        "Feature set": "baseline",
+        "Method": "Logistic S",
+        "CV log loss": 0.283518503149225,
+        "CV Brier": 0.077401939507623,
+        "Fold log loss SD": 0.001725888703556,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 10
+        },
+        "Fold log losses": [
+          0.284058608092953,
+          0.284910186505471,
+          0.281587470288277
+        ]
+      },
+      {
+        "Candidate": 28,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.283499794821436,
+        "CV Brier": 0.077415954705019,
+        "Fold log loss SD": 0.001651036004842,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 50,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.283889329668384,
+          0.284921647163584,
+          0.281689148947199
+        ]
+      },
+      {
+        "Candidate": 29,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.283499873244606,
+        "CV Brier": 0.077415975971015,
+        "Fold log loss SD": 0.001645506852269,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 50,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.283883767776017,
+          0.284919910839646,
+          0.281696680520188
+        ]
+      },
+      {
+        "Candidate": 30,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.283499794821436,
+        "CV Brier": 0.077415954705019,
+        "Fold log loss SD": 0.001651036004842,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.283889329668384,
+          0.284921647163584,
+          0.281689148947199
+        ]
+      },
+      {
+        "Candidate": 31,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.283499873244606,
+        "CV Brier": 0.077415975971015,
+        "Fold log loss SD": 0.001645506852269,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 20,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.283883767776017,
+          0.284919910839646,
+          0.281696680520188
+        ]
+      },
+      {
+        "Candidate": 32,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.283576637813439,
+        "CV Brier": 0.077431606098055,
+        "Fold log loss SD": 0.001706659727854,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 50,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.28372368693542,
+          0.285205428684889,
+          0.281801590795536
+        ]
+      },
+      {
+        "Candidate": 33,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.283583307052936,
+        "CV Brier": 0.077433666811298,
+        "Fold log loss SD": 0.001704855403177,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 50,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.283745020294111,
+          0.285201958175123,
+          0.281803733656783
+        ]
+      },
+      {
+        "Candidate": 34,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.28349682324554,
+        "CV Brier": 0.077407339075964,
+        "Fold log loss SD": 0.001725056302076,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.283826757856575,
+          0.285033513947847,
+          0.281630982005381
+        ]
+      },
+      {
+        "Candidate": 35,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.283562383368975,
+        "CV Brier": 0.077421661521525,
+        "Fold log loss SD": 0.001699755902976,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 20,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.283869944611163,
+          0.285087782378943,
+          0.281730197679128
+        ]
+      },
+      {
+        "Candidate": 36,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.283779697841946,
+        "CV Brier": 0.077460676783329,
+        "Fold log loss SD": 0.00172274189738,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 50,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.284320191892402,
+          0.285167821390415,
+          0.281851834082494
+        ]
+      },
+      {
+        "Candidate": 37,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.283777002324908,
+        "CV Brier": 0.077462132163622,
+        "Fold log loss SD": 0.001722927374857,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 50,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.284330372643129,
+          0.285155692378225,
+          0.281845693780353
+        ]
+      },
+      {
+        "Candidate": 38,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.28386435459596,
+        "CV Brier": 0.077467025182459,
+        "Fold log loss SD": 0.001718905192103,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.284600704955442,
+          0.285092857888747,
+          0.281900216592331
+        ]
+      },
+      {
+        "Candidate": 39,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.283957019234015,
+        "CV Brier": 0.077486136592652,
+        "Fold log loss SD": 0.001729651965161,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 20,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.284588639020201,
+          0.285282531788618,
+          0.282000628440293
+        ]
+      },
+      {
+        "Candidate": 40,
+        "Feature set": "history",
+        "Method": "XGB T",
+        "CV log loss": 0.283503989695954,
+        "CV Brier": 0.077416200104628,
+        "Fold log loss SD": 0.001707159925539,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 50,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.284009314063285,
+          0.284901876254845,
+          0.281601530586435
+        ]
+      },
+      {
+        "Candidate": 41,
+        "Feature set": "history",
+        "Method": "XGB T",
+        "CV log loss": 0.283508889899607,
+        "CV Brier": 0.077418075351952,
+        "Fold log loss SD": 0.001715266383351,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 50,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.284014101804545,
+          0.284915245667312,
+          0.281598078002047
+        ]
+      },
+      {
+        "Candidate": 42,
+        "Feature set": "history",
+        "Method": "XGB T",
+        "CV log loss": 0.28359023053819,
+        "CV Brier": 0.077432146838962,
+        "Fold log loss SD": 0.00164618986234,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.284121383144016,
+          0.284905690076222,
+          0.281744336334646
+        ]
+      },
+      {
+        "Candidate": 43,
+        "Feature set": "history",
+        "Method": "XGB T",
+        "CV log loss": 0.283605147592754,
+        "CV Brier": 0.077435486688711,
+        "Fold log loss SD": 0.001651218182033,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 20,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.284155095545357,
+          0.284911635216388,
+          0.281749429273731
+        ]
+      },
+      {
+        "Candidate": 44,
+        "Feature set": "history",
+        "Method": "XGB T",
+        "CV log loss": 0.283650249807053,
+        "CV Brier": 0.077437755535562,
+        "Fold log loss SD": 0.001726538635614,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 50,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.283881640273429,
+          0.285249849046779,
+          0.281820055212043
+        ]
+      },
+      {
+        "Candidate": 45,
+        "Feature set": "history",
+        "Method": "XGB T",
+        "CV log loss": 0.283684339692215,
+        "CV Brier": 0.077442425651303,
+        "Fold log loss SD": 0.001706153457081,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 50,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.283929316904535,
+          0.285255182984746,
+          0.281869303340253
+        ]
+      },
+      {
+        "Candidate": 46,
+        "Feature set": "history",
+        "Method": "XGB T",
+        "CV log loss": 0.283838838245604,
+        "CV Brier": 0.077480498241454,
+        "Fold log loss SD": 0.001637039991163,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.2842227085523,
+          0.28525024416155,
+          0.282044297364585
+        ]
+      },
+      {
+        "Candidate": 47,
+        "Feature set": "history",
+        "Method": "XGB T",
+        "CV log loss": 0.283881608453458,
+        "CV Brier": 0.077491264897645,
+        "Fold log loss SD": 0.001617867961223,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 20,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.284267232456558,
+          0.285272228339778,
+          0.282106090468318
+        ]
+      },
+      {
+        "Candidate": 48,
+        "Feature set": "history",
+        "Method": "XGB T",
+        "CV log loss": 0.284051284466898,
+        "CV Brier": 0.077501633331394,
+        "Fold log loss SD": 0.001747059976595,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 50,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.284372121798783,
+          0.285616124080554,
+          0.282166403111314
+        ]
+      },
+      {
+        "Candidate": 49,
+        "Feature set": "history",
+        "Method": "XGB T",
+        "CV log loss": 0.284086240370029,
+        "CV Brier": 0.077506264292493,
+        "Fold log loss SD": 0.0017759720492,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 50,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.284494888049536,
+          0.285622716780997,
+          0.282141915046342
+        ]
+      },
+      {
+        "Candidate": 50,
+        "Feature set": "history",
+        "Method": "XGB T",
+        "CV log loss": 0.284096793520482,
+        "CV Brier": 0.077525268317482,
+        "Fold log loss SD": 0.001701254011031,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.284788063433856,
+          0.285344037218637,
+          0.282158995890374
+        ]
+      },
+      {
+        "Candidate": 51,
+        "Feature set": "history",
+        "Method": "XGB T",
+        "CV log loss": 0.284180348086,
+        "CV Brier": 0.077549242822499,
+        "Fold log loss SD": 0.00156655607541,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 20,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.284990391800457,
+          0.285176429370545,
+          0.282374843375867
+        ]
+      },
+      {
+        "Candidate": 52,
+        "Feature set": "history",
+        "Method": "Logistic S",
+        "CV log loss": 0.28488838363442,
+        "CV Brier": 0.077671245361951,
+        "Fold log loss SD": 0.000919248719338,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 0.01
+        },
+        "Fold log losses": [
+          0.285324616494684,
+          0.285508532239421,
+          0.283832375555937
+        ]
+      },
+      {
+        "Candidate": 53,
+        "Feature set": "history",
+        "Method": "Logistic S",
+        "CV log loss": 0.283591776511745,
+        "CV Brier": 0.077425860976664,
+        "Fold log loss SD": 0.001560396852148,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 0.1
+        },
+        "Fold log losses": [
+          0.284189760525988,
+          0.284765138140075,
+          0.281821094601545
+        ]
+      },
+      {
+        "Candidate": 54,
+        "Feature set": "history",
+        "Method": "Logistic S",
+        "CV log loss": 0.283558956952294,
+        "CV Brier": 0.077422174200785,
+        "Fold log loss SD": 0.001681221491406,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 1
+        },
+        "Fold log losses": [
+          0.284126928756254,
+          0.284883057092397,
+          0.281667613928851
+        ]
+      },
+      {
+        "Candidate": 55,
+        "Feature set": "history",
+        "Method": "Logistic S",
+        "CV log loss": 0.283560607638305,
+        "CV Brier": 0.077422839544553,
+        "Fold log loss SD": 0.001695349621231,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 10
+        },
+        "Fold log losses": [
+          0.284124175357297,
+          0.28490283349341,
+          0.281655550673992
+        ]
+      }
+    ],
+    "Conditional borrowing": [
+      {
+        "Candidate": 0,
+        "Feature set": "baseline",
+        "Method": "Logistic S",
+        "CV log loss": 0.372842996422521,
+        "CV Brier": 0.109891493001947,
+        "Mean predicted borrowing (%)": 87.08991571192364,
+        "Fold log loss SD": 0.012907359007784,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 0.01
+        },
+        "Fold log losses": [
+          0.376700325905993,
+          0.383351649820178,
+          0.358424606719536
+        ]
+      },
+      {
+        "Candidate": 1,
+        "Feature set": "baseline",
+        "Method": "Logistic S",
+        "CV log loss": 0.36297154836681,
+        "CV Brier": 0.107981013860381,
+        "Mean predicted borrowing (%)": 87.12149663820315,
+        "Fold log loss SD": 0.009238096828895,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 0.1
+        },
+        "Fold log losses": [
+          0.366583526842472,
+          0.369837973875591,
+          0.352460076407051
+        ]
+      },
+      {
+        "Candidate": 2,
+        "Feature set": "baseline",
+        "Method": "Logistic S",
+        "CV log loss": 0.362087870643276,
+        "CV Brier": 0.108059763259885,
+        "Mean predicted borrowing (%)": 87.1343241715838,
+        "Fold log loss SD": 0.007777297694309,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 1
+        },
+        "Fold log losses": [
+          0.365935914910657,
+          0.367176186239686,
+          0.353128266932645
+        ]
+      },
+      {
+        "Candidate": 3,
+        "Feature set": "baseline",
+        "Method": "Logistic S",
+        "CV log loss": 0.3623019261277,
+        "CV Brier": 0.108162244784153,
+        "Mean predicted borrowing (%)": 87.13906594946657,
+        "Fold log loss SD": 0.007672127562166,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 10
+        },
+        "Fold log losses": [
+          0.366259629868111,
+          0.367172889899503,
+          0.353451302625046
+        ]
+      },
+      {
+        "Candidate": 4,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.362551118641034,
+        "CV Brier": 0.108004362615358,
+        "Mean predicted borrowing (%)": 87.12434443424611,
+        "Fold log loss SD": 0.007464512633714,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.368221746942601,
+          0.365330701469042,
+          0.354092051444896
+        ]
+      },
+      {
+        "Candidate": 5,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.362551118641034,
+        "CV Brier": 0.108004362615358,
+        "Mean predicted borrowing (%)": 87.12434443424611,
+        "Fold log loss SD": 0.007464512633714,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 10,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.368221746942601,
+          0.365330701469042,
+          0.354092051444896
+        ]
+      },
+      {
+        "Candidate": 6,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.36326706691976,
+        "CV Brier": 0.108344588671834,
+        "Mean predicted borrowing (%)": 87.19011850145205,
+        "Fold log loss SD": 0.00755274400428,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.368852200931652,
+          0.366267735053284,
+          0.354671126769332
+        ]
+      },
+      {
+        "Candidate": 7,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.362750978743652,
+        "CV Brier": 0.108269219582879,
+        "Mean predicted borrowing (%)": 87.16868036154648,
+        "Fold log loss SD": 0.007297488787196,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 10,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.367219911434991,
+          0.366692012715145,
+          0.354324611394957
+        ]
+      },
+      {
+        "Candidate": 8,
+        "Feature set": "history",
+        "Method": "Logistic S",
+        "CV log loss": 0.373276624880623,
+        "CV Brier": 0.110000942645754,
+        "Mean predicted borrowing (%)": 87.07785102932168,
+        "Fold log loss SD": 0.013296114113435,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 0.01
+        },
+        "Fold log losses": [
+          0.377738175422345,
+          0.383737900060482,
+          0.358302297732392
+        ]
+      },
+      {
+        "Candidate": 9,
+        "Feature set": "history",
+        "Method": "Logistic S",
+        "CV log loss": 0.363624533674923,
+        "CV Brier": 0.108170687844972,
+        "Mean predicted borrowing (%)": 87.11037385610597,
+        "Fold log loss SD": 0.010042582327976,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 0.1
+        },
+        "Fold log losses": [
+          0.368020125618412,
+          0.370699260732932,
+          0.352120869093933
+        ]
+      },
+      {
+        "Candidate": 10,
+        "Feature set": "history",
+        "Method": "Logistic S",
+        "CV log loss": 0.362678682207843,
+        "CV Brier": 0.108258735651828,
+        "Mean predicted borrowing (%)": 87.12040441044905,
+        "Fold log loss SD": 0.008703210329635,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 1
+        },
+        "Fold log losses": [
+          0.36682812312961,
+          0.368513656601481,
+          0.352667328861171
+        ]
+      },
+      {
+        "Candidate": 11,
+        "Feature set": "history",
+        "Method": "Logistic S",
+        "CV log loss": 0.362805014424653,
+        "CV Brier": 0.108350564629706,
+        "Mean predicted borrowing (%)": 87.1279630030224,
+        "Fold log loss SD": 0.008523966824083,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 10
+        },
+        "Fold log losses": [
+          0.36689856920059,
+          0.368493449213629,
+          0.352996815366555
+        ]
+      },
+      {
+        "Candidate": 12,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.362480363220192,
+        "CV Brier": 0.107968898169178,
+        "Mean predicted borrowing (%)": 87.09892110130941,
+        "Fold log loss SD": 0.007694479500431,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.367728493146235,
+          0.366055320917732,
+          0.353643683929696
+        ]
+      },
+      {
+        "Candidate": 13,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.362524613232414,
+        "CV Brier": 0.10797260377309,
+        "Mean predicted borrowing (%)": 87.0934074303447,
+        "Fold log loss SD": 0.007758246439028,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 10,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.367881286314737,
+          0.366055320917732,
+          0.353623995795941
+        ]
+      },
+      {
+        "Candidate": 14,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.364335036271215,
+        "CV Brier": 0.108656213197956,
+        "Mean predicted borrowing (%)": 87.13370051618034,
+        "Fold log loss SD": 0.009412313086019,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.3702529616846,
+          0.369256874807223,
+          0.353475152550814
+        ]
+      },
+      {
+        "Candidate": 15,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.364192258586638,
+        "CV Brier": 0.108707689735227,
+        "Mean predicted borrowing (%)": 87.13058597381207,
+        "Fold log loss SD": 0.009470437490224,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 10,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.369429741462268,
+          0.369870714594443,
+          0.35325139527138
+        ]
+      }
+    ],
+    "Direct borrowing": [
+      {
+        "Candidate": 0,
+        "Feature set": "baseline",
+        "Method": "Logistic S",
+        "CV log loss": 0.256848333030301,
+        "CV Brier": 0.068335558630051,
+        "Fold log loss SD": 0.000979204505985,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 0.01
+        },
+        "Fold log losses": [
+          0.256769650433944,
+          0.255910606744877,
+          0.257864286504074
+        ]
+      },
+      {
+        "Candidate": 1,
+        "Feature set": "baseline",
+        "Method": "Logistic S",
+        "CV log loss": 0.255336013216958,
+        "CV Brier": 0.068079025583642,
+        "Fold log loss SD": 0.0005581408167,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 0.1
+        },
+        "Fold log losses": [
+          0.255603483175002,
+          0.254694380597441,
+          0.255709924659261
+        ]
+      },
+      {
+        "Candidate": 2,
+        "Feature set": "baseline",
+        "Method": "Logistic S",
+        "CV log loss": 0.25527788197584,
+        "CV Brier": 0.068070898207297,
+        "Fold log loss SD": 0.000486411075162,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 1
+        },
+        "Fold log losses": [
+          0.255600326406065,
+          0.254718330897328,
+          0.255514786306062
+        ]
+      },
+      {
+        "Candidate": 3,
+        "Feature set": "baseline",
+        "Method": "Logistic S",
+        "CV log loss": 0.255272570165041,
+        "CV Brier": 0.068070137346061,
+        "Fold log loss SD": 0.000477368418004,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 10
+        },
+        "Fold log losses": [
+          0.255601613113714,
+          0.254725006452744,
+          0.255490895483438
+        ]
+      },
+      {
+        "Candidate": 4,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.255479931096835,
+        "CV Brier": 0.068092040332232,
+        "Fold log loss SD": 0.000650756561617,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 50,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.255813725112478,
+          0.254729903899647,
+          0.255895874592453
+        ]
+      },
+      {
+        "Candidate": 5,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.255475526085121,
+        "CV Brier": 0.068091269403438,
+        "Fold log loss SD": 0.000655456477112,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 50,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.25581267280598,
+          0.254720016408317,
+          0.255893597409175
+        ]
+      },
+      {
+        "Candidate": 6,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.255485860513119,
+        "CV Brier": 0.068093037538004,
+        "Fold log loss SD": 0.000655384400492,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.255831512804,
+          0.254729903899647,
+          0.255895874592453
+        ]
+      },
+      {
+        "Candidate": 7,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.255486473826199,
+        "CV Brier": 0.068093121870734,
+        "Fold log loss SD": 0.000664122398852,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 20,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.255845515000194,
+          0.254720016408317,
+          0.255893597409175
+        ]
+      },
+      {
+        "Candidate": 8,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.255428393637695,
+        "CV Brier": 0.068082938147989,
+        "Fold log loss SD": 0.000585081806748,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 50,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.255744555599603,
+          0.25475316229508,
+          0.255787205163615
+        ]
+      },
+      {
+        "Candidate": 9,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.255443679694114,
+        "CV Brier": 0.06808580873958,
+        "Fold log loss SD": 0.000593229882342,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 50,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.255768040892669,
+          0.254758901709841,
+          0.255803835680328
+        ]
+      },
+      {
+        "Candidate": 10,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.255464826341735,
+        "CV Brier": 0.068088714427366,
+        "Fold log loss SD": 0.000656482902292,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.255919321188204,
+          0.254712102365288,
+          0.255762787204615
+        ]
+      },
+      {
+        "Candidate": 11,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.255490913133219,
+        "CV Brier": 0.068093816868428,
+        "Fold log loss SD": 0.000659537856886,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 20,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.255945033750683,
+          0.254734322161871,
+          0.25579311333264
+        ]
+      },
+      {
+        "Candidate": 12,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.255571778934624,
+        "CV Brier": 0.068107413107072,
+        "Fold log loss SD": 0.000517608403003,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 50,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.255806466399852,
+          0.2549783112591,
+          0.255930324395981
+        ]
+      },
+      {
+        "Candidate": 13,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.255547838862216,
+        "CV Brier": 0.068105435722677,
+        "Fold log loss SD": 0.000471774623018,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 50,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.255784058769661,
+          0.255004539355524,
+          0.255854707573602
+        ]
+      },
+      {
+        "Candidate": 14,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.255679325177547,
+        "CV Brier": 0.068128954144038,
+        "Fold log loss SD": 0.000640161823983,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.255946595076298,
+          0.254948724552951,
+          0.256142362842277
+        ]
+      },
+      {
+        "Candidate": 15,
+        "Feature set": "baseline",
+        "Method": "XGB S",
+        "CV log loss": 0.255724200619951,
+        "CV Brier": 0.068139924071885,
+        "Fold log loss SD": 0.000615032004856,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 20,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.256046223337374,
+          0.255014922908565,
+          0.256111182862938
+        ]
+      },
+      {
+        "Candidate": 16,
+        "Feature set": "history",
+        "Method": "Logistic S",
+        "CV log loss": 0.256955900281488,
+        "CV Brier": 0.068356765574818,
+        "Fold log loss SD": 0.001002759277495,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 0.01
+        },
+        "Fold log losses": [
+          0.257147825004649,
+          0.255870835842619,
+          0.257848566219098
+        ]
+      },
+      {
+        "Candidate": 17,
+        "Feature set": "history",
+        "Method": "Logistic S",
+        "CV log loss": 0.255426480330151,
+        "CV Brier": 0.06810552457841,
+        "Fold log loss SD": 0.000597921393718,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 0.1
+        },
+        "Fold log losses": [
+          0.255807928088213,
+          0.254737298057886,
+          0.255733962704909
+        ]
+      },
+      {
+        "Candidate": 18,
+        "Feature set": "history",
+        "Method": "Logistic S",
+        "CV log loss": 0.255357888098686,
+        "CV Brier": 0.068098538003383,
+        "Fold log loss SD": 0.000510685137193,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 1
+        },
+        "Fold log losses": [
+          0.255718987239881,
+          0.254773542789545,
+          0.255580927563479
+        ]
+      },
+      {
+        "Candidate": 19,
+        "Feature set": "history",
+        "Method": "Logistic S",
+        "CV log loss": 0.255359810110428,
+        "CV Brier": 0.068099371974386,
+        "Fold log loss SD": 0.000496311071112,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "C": 10
+        },
+        "Fold log losses": [
+          0.255710937469154,
+          0.254791945044949,
+          0.255576346983556
+        ]
+      },
+      {
+        "Candidate": 20,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.255245493222373,
+        "CV Brier": 0.068075413520476,
+        "Fold log loss SD": 0.000366013056268,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 50,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.255360402689739,
+          0.254835742011817,
+          0.255540164028892
+        ]
+      },
+      {
+        "Candidate": 21,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.255238469922379,
+        "CV Brier": 0.068073916744207,
+        "Fold log loss SD": 0.000362402009685,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 50,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.255359173858894,
+          0.25483104950121,
+          0.25552501765464
+        ]
+      },
+      {
+        "Candidate": 22,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.255245493222373,
+        "CV Brier": 0.068075413520476,
+        "Fold log loss SD": 0.000366013056268,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.255360402689739,
+          0.254835742011817,
+          0.255540164028892
+        ]
+      },
+      {
+        "Candidate": 23,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.255238469922379,
+        "CV Brier": 0.068073916744207,
+        "Fold log loss SD": 0.000362402009685,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 1,
+          "min_child_weight": 20,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.255359173858894,
+          0.25483104950121,
+          0.25552501765464
+        ]
+      },
+      {
+        "Candidate": 24,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.255199750043761,
+        "CV Brier": 0.068068697329793,
+        "Fold log loss SD": 0.000297486301579,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 50,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.255298465207447,
+          0.254865397323961,
+          0.255435249047739
+        ]
+      },
+      {
+        "Candidate": 25,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.25520275788804,
+        "CV Brier": 0.068070060807959,
+        "Fold log loss SD": 0.000296968117143,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 50,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.255278927491367,
+          0.25487506330063,
+          0.255454143211025
+        ]
+      },
+      {
+        "Candidate": 26,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.255206217092142,
+        "CV Brier": 0.068070014317588,
+        "Fold log loss SD": 0.000325785487519,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.2554344712001,
+          0.254833091178795,
+          0.25535095647376
+        ]
+      },
+      {
+        "Candidate": 27,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.25523867291237,
+        "CV Brier": 0.068076809436563,
+        "Fold log loss SD": 0.000314238583701,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 2,
+          "min_child_weight": 20,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.255477447193193,
+          0.254882641802085,
+          0.25535580732787
+        ]
+      },
+      {
+        "Candidate": 28,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.255307987756634,
+        "CV Brier": 0.068086385700871,
+        "Fold log loss SD": 0.000225023136832,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 50,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.255269404703229,
+          0.255104694965829,
+          0.255549760825723
+        ]
+      },
+      {
+        "Candidate": 29,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.255309662792189,
+        "CV Brier": 0.068089279522578,
+        "Fold log loss SD": 0.000252015119697,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 50,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.255314766530457,
+          0.255055075836241,
+          0.255559027343644
+        ]
+      },
+      {
+        "Candidate": 30,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.255463221404781,
+        "CV Brier": 0.068107681727414,
+        "Fold log loss SD": 0.000339676799948,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 20,
+          "reg_lambda": 10
+        },
+        "Fold log losses": [
+          0.255600159434273,
+          0.255076388929949,
+          0.25571295982284
+        ]
+      },
+      {
+        "Candidate": 31,
+        "Feature set": "history",
+        "Method": "XGB S",
+        "CV log loss": 0.255509047396104,
+        "CV Brier": 0.068115807361962,
+        "Fold log loss SD": 0.000258652983402,
+        "Iteration limit fits": 0,
+        "Parameters": {
+          "max_depth": 3,
+          "min_child_weight": 20,
+          "reg_lambda": 1
+        },
+        "Fold log losses": [
+          0.255712650717258,
+          0.255217986012909,
+          0.255596406961737
+        ]
+      }
+    ]
+  }
+}

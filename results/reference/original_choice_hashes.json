@@ -1,0 +1,20 @@
+{
+  "Always four examples": "fe3b185493957c33c2d1ee3b2286191f563792343dc2df9942c9d9dac49f9be2",
+  "Always one example": "c1e13a6cb14692aa1e6d89464783aa7f95c69f45d1e3c013d3cba850ba5f3584",
+  "Application | baseline | Logistic S": "38f70f10c7b8c4ea10ffbab7cfc48a667a4a89ffa1e1f9133502ac7ff599045e",
+  "Application | baseline | XGB S": "c1e13a6cb14692aa1e6d89464783aa7f95c69f45d1e3c013d3cba850ba5f3584",
+  "Application | baseline | XGB T": "67f530a6c1f00d154d31f839a88db97b12b4766415c876b35dc52a2dbbb42a8b",
+  "Application | history | Logistic S": "581f06e711e567e01678eebda52191966fcbc3fc42481ce7c05f37e34b9ef9ff",
+  "Application | history | XGB S": "194fbf43fd2e57ba4e0deed79d3def2cc7b4f613e44fd556658d365b13bf2726",
+  "Application | history | XGB T": "78cd07b07f44485da3041b3ce1b9a714c323bd035d447f04aaecb31a75ce8ecd",
+  "Two-stage | baseline | Logistic S": "ef4d6c596108fa94270201904de3b72d275dd3c523a9a56b8d0419464868ef3e",
+  "Two-stage | baseline | XGB S": "c1e13a6cb14692aa1e6d89464783aa7f95c69f45d1e3c013d3cba850ba5f3584",
+  "Two-stage | baseline | XGB T": "67f530a6c1f00d154d31f839a88db97b12b4766415c876b35dc52a2dbbb42a8b",
+  "Two-stage | history | Logistic S": "f0c5e7c68c6d5667578abbfd581c859886f451c7998ea08e9bb7f87382ee979b",
+  "Two-stage | history | XGB S": "194fbf43fd2e57ba4e0deed79d3def2cc7b4f613e44fd556658d365b13bf2726",
+  "Two-stage | history | XGB T": "78cd07b07f44485da3041b3ce1b9a714c323bd035d447f04aaecb31a75ce8ecd",
+  "Direct | baseline | Logistic S": "61cf5e60d2bd301d037b6fff1b9c4970507da3f1cfdb4b8366bb4b5d4be1c8c8",
+  "Direct | baseline | XGB S": "2789113ede5404888080bb30d382e1e0122d4145e801f2d8d9af6a7d895fb495",
+  "Direct | history | Logistic S": "2f136952c8087f541d946cbfdbb775a944be78bbe74b81ddd61afda5fdf28c92",
+  "Direct | history | XGB S": "ff6829d648c38da53425632e66e7ccb6c73147eeca04f3c09151b370999f4c52"
+}
