@@ -22,6 +22,7 @@ To judge the recommendations, I use a doubly robust estimator, because letters w
 - Both stages predict behavior better than chance (test AUC around 0.65 for applying and 0.69 for borrowing), and there's no sign of overfitting.
 - Every version of the model does better than sending everyone the four-example letter, but none does better than sending everyone the one-example letter.
 - The model can't tell which customers the letter helps most. Uplift doesn't fall off across deciles of predicted effect, and the Qini coefficients aren't distinguishable from zero.
+- Looking at each stage separately shows why: the borrowing model ranks applicants' chances of borrowing well, but neither stage ranks customers by how much the letter helps them. The XGBoost uplift ranking also looks far better on the training data than on the test set, even though its predictions of outcomes don't overfit.
 - Part of the reason is that there isn't much to find: the letter's effect looks about the same across risk groups, mailing rounds, and interest rates. The one hint of a difference is by previous loans (p = 0.057), which I'd treat as a hypothesis rather than a result.
 - Adding Stage 2 doesn't produce more loans. In the comparison I fixed before looking at the test set, it changed the result by −2.39 loans per 1,000 letters (95% CI −6.83 to 1.91).
 
