@@ -1,8 +1,8 @@
 # Two-stage loan targeting
 
-Code for my paper *From Applications to Completed Loans: Does Modeling the Second Stage Improve Targeting Decisions?*
+Code for my paper *A Two-Stage Model for Personalizing Offers: Evidence from a Consumer Credit Field Experiment*
 
-Campaign models usually target customers based on who is likely to respond. But a response only matters if it turns into a completed transaction, so a natural idea is to model both steps: who applies, and which applicants actually take out a loan. I wanted to know whether adding that second step leads to better targeting decisions, not just better predictions.
+A loan offer works in two steps: a customer applies, and then decides whether to borrow. What the lender cares about is loans, not applications, so this model predicts both steps and uses them to pick the offer letter for each customer. I evaluate it the way you'd check any targeting model: each stage on its own, then the recommendations as a whole.
 
 The data come from a randomized field experiment by Bertrand et al. (2010), in which a South African lender mailed loan offers to former customers. Some letters showed one example loan and others showed four. The question here is which letter to send each customer.
 
@@ -24,7 +24,7 @@ To judge the recommendations, I use a doubly robust estimator, because letters w
 - The model can't tell which customers the letter helps most. Uplift doesn't fall off across deciles of predicted effect, and the Qini coefficients aren't distinguishable from zero.
 - Looking at each stage separately shows why: the borrowing model ranks applicants' chances of borrowing well, but neither stage ranks customers by how much the letter helps them. The XGBoost uplift ranking also looks far better on the training data than on the test set, even though its predictions of outcomes don't overfit.
 - Part of the reason is that there isn't much to find: the letter's effect looks about the same across risk groups, mailing rounds, and interest rates. The one hint of a difference is by previous loans (p = 0.057), which I'd treat as a hypothesis rather than a result.
-- Adding Stage 2 doesn't produce more loans. In the comparison I fixed before looking at the test set, it changed the result by −2.39 loans per 1,000 letters (95% CI −6.83 to 1.91).
+- As a check I fixed before looking at the test set, I compared the model with the recommendations Stage 1 would make on its own. Stage 2 changed the result by −2.39 loans per 1,000 letters (95% CI −6.83 to 1.91), so it doesn't add measurable value here.
 
 My reading is that the second stage has the most influence exactly where it has the least data: only 361 applicants in the training set didn't borrow. It's useful for understanding where the letter's effect comes from, but not for deciding who gets which letter.
 
@@ -42,7 +42,7 @@ python run_analysis.py
 
 `run_analysis.py` downloads the public data, checks it against a known checksum, recreates the train/validation/test split, fits the models, and evaluates them on the test set. At the end it compares the results with my original run (saved in `results/reference/`) and stops if anything doesn't match. Outputs go to a new folder under `results/runs/`.
 
-The two scripts below produce the extra metrics and figures in the paper:
+The scripts below produce the extra metrics and figures in the paper:
 
 ```bash
 python -m scripts.describe_models     # coefficients, SHAP attribution, overfitting check
@@ -51,6 +51,7 @@ python -m scripts.heterogeneity       # effect of the letter by customer group
 python -m scripts.stage_deciles       # decile tables and rank-order tests for each stage
 python -m scripts.plot_deciles        # decile figure
 python -m scripts.plot_diagrams       # funnel and model diagrams
+python -m scripts.plot_appendix       # tuning and calibration figures for the appendix
 ```
 
 Tests:

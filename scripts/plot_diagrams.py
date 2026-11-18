@@ -60,7 +60,7 @@ def funnel():
 
 def model_flow():
     fig, ax = plt.subplots(figsize=(7.2, 4.1), dpi=200)
-    ax.set_xlim(0, 12); ax.set_ylim(0.3, 6.85); ax.axis("off")
+    ax.set_xlim(0, 12); ax.set_ylim(0.3, 6.0); ax.axis("off")
 
     # Inputs
     box(ax, 0.05, 2.25, 2.0, 2.1, GREY_BG, LINE)
@@ -79,9 +79,6 @@ def model_flow():
     ax.text(4.5, 1.45, r"$\hat q_t(x)$ = chance of borrowing," "\n" "given an application", ha="center", va="center", fontsize=BODY, color=INK, linespacing=1.3)
     ax.text(4.5, 0.72, "fitted on training applicants only", ha="center", va="center", fontsize=NOTE, color=MUTED)
 
-    # Sequence: the second stage learns only from customers who passed the first
-    arrow(ax, 4.5, 3.72, 4.5, 2.5, color=MUTED, lw=1.0, style=(0, (2, 2)), head=9)
-    ax.text(4.62, 3.1, "applicants only", ha="left", va="center", fontsize=NOTE, color=MUTED, style="italic")
 
     # Combine
     box(ax, 6.85, 2.1, 2.35, 2.4, "white", INK)
@@ -101,12 +98,6 @@ def model_flow():
     arrow(ax, 6.35, 4.6, 6.8, 3.95)
     arrow(ax, 6.35, 1.6, 6.8, 2.5)
     arrow(ax, 9.25, 3.3, 9.65, 3.3, color=INK)
-
-    # Reduced model used for the primary comparison
-    ax.plot([4.5, 4.5, 10.825], [5.78, 6.35, 6.35], color=BLUE, linewidth=1.1, linestyle=(0, (4, 3)))
-    arrow(ax, 10.825, 6.35, 10.825, 4.55, color=BLUE, lw=1.1, style=(0, (4, 3)), head=9)
-    ax.text(7.6, 6.5, r"Stage 1 alone (comparison model): decides on $\hat r_1 - \hat r_0$",
-            ha="center", va="bottom", fontsize=NOTE, color=BLUE)
 
     fig.tight_layout(pad=0.2)
     fig.savefig(OUT / "two_stage_model_flow.png", facecolor="white")
